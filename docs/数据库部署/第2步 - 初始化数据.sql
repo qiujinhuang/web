@@ -21,9 +21,9 @@ INSERT INTO release_feature(release_id, release_author, release_date, release_nu
 <p>6、实现登录注册功能、网站单日访问量与总访问量统计、实现在线人数统计</p>');
 
 /** 用户信息 初始密码均为123123 */
-INSERT INTO user_info(user_id, user_name, user_password, user_email, user_phone, user_age, user_sex, user_address, user_head_url, user_nick_name) VALUES (0, 'husen', 'cf5fe8a4669d7300ddac03170796e012', 'husen@hemingsheng.cn', NULL, NULL, NULL, NULL, NULL, '何明胜');
-INSERT INTO user_info(user_id, user_name, user_password, user_email, user_phone, user_age, user_sex, user_address, user_head_url, user_nick_name) VALUES (1, 'super_admin', '2f0b3214c90231b9ad9f341bf1df8035', 'he_mingsheng@qq.com', NULL, NULL, NULL, NULL, NULL, NULL);
-INSERT INTO user_info(user_id, user_name, user_password, user_email, user_phone, user_age, user_sex, user_address, user_head_url, user_nick_name) VALUES (2, 'admin', 'c19380b712c30d00881bc9cfb3c74050', '940706904@qq.com', NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO user_info(user_name, user_password, user_email, user_phone, user_age, user_sex, user_address, user_head_url, user_nick_name) VALUES ('husen', 'cf5fe8a4669d7300ddac03170796e012', 'husen@hemingsheng.cn', NULL, NULL, NULL, NULL, NULL, '何明胜');
+INSERT INTO user_info(user_name, user_password, user_email, user_phone, user_age, user_sex, user_address, user_head_url, user_nick_name) VALUES ('super_admin', '2f0b3214c90231b9ad9f341bf1df8035', 'he_mingsheng@qq.com', NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO user_info(user_name, user_password, user_email, user_phone, user_age, user_sex, user_address, user_head_url, user_nick_name) VALUES ('admin', 'c19380b712c30d00881bc9cfb3c74050', '940706904@qq.com', NULL, NULL, NULL, NULL, NULL, NULL);
 
 /** 网站访问统计 */
 INSERT INTO visit_total(visit_id, visit_date, visit_count) VALUES (0, '2017-09-29', 0);
